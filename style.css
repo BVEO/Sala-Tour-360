@@ -847,11 +847,14 @@ body.view-control-buttons .viewControlButton {
 
   border: 1px solid rgba(255, 255, 255, 0.2);
 }
+
+
 /* ===== TIPOGRAFÍA ELEGANTE ===== */
 
 body {
   font-family: 'Montserrat', sans-serif;
 }
+
 
 /* ===== TEXTO MÁS VISIBLE Y FINO ===== */
 
@@ -866,7 +869,8 @@ body {
   text-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
 }
 
-/* ===== EFECTO ACRÍLICO SUAVE ===== */
+
+/* ===== EFECTO ACRÍLICO SUAVE (BARRAS PRINCIPALES) ===== */
 
 #titleBar,
 #sceneList .scenes {
@@ -876,4 +880,28 @@ body {
   -webkit-backdrop-filter: blur(14px);
 
   border: 1px solid rgba(255,255,255,0.2);
+}
+
+
+/* ===== ESCENA ACTIVA – ESTILO PREMIUM ===== */
+
+#sceneList .scene.current {
+
+  background: rgba(255, 255, 255, 0.10) !important;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+
+  border-left: 3px solid rgba(255, 255, 255, 0.6);
+  color: rgba(255,255,255,0.95) !important;
+
+  transition: all 0.3s ease;
+}
+
+
+/* ===== HOVER SUAVE ===== */
+
+#sceneList .scene:hover {
+
+  background: rgba(255,255,255,0.15);
+  transition: all 0.3s ease;
 }
