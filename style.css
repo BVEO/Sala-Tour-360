@@ -847,3 +847,33 @@ body.view-control-buttons .viewControlButton {
 
   border: 1px solid rgba(255, 255, 255, 0.2);
 }
+/* ===== TIPOGRAFÍA ELEGANTE ===== */
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* ===== TEXTO MÁS VISIBLE Y FINO ===== */
+
+#titleBar,
+#titleBar .sceneName,
+#sceneList .scenes,
+#sceneList .scene {
+
+  color: rgba(255, 255, 255, 0.95) !important;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+}
+
+/* ===== EFECTO ACRÍLICO SUAVE ===== */
+
+#titleBar,
+#sceneList .scenes {
+
+  background: rgba(255, 255, 255, 0.08) !important;
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+
+  border: 1px solid rgba(255,255,255,0.2);
+}
