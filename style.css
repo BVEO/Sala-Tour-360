@@ -828,3 +828,22 @@ body.view-control-buttons .viewControlButton {
 .viewControlButton-6 {
   margin-left: 105px;
 }
+/* ===== EFECTO ACRÍLICO MODERNO ===== */
+
+#titleBar .sceneName,
+#fullscreenToggle,
+#autorotateToggle,
+#sceneListToggle,
+#sceneList .scenes,
+.viewControlButton,
+.info-hotspot .info-hotspot-header,
+.info-hotspot .info-hotspot-text,
+.info-hotspot-modal .info-hotspot-header,
+.info-hotspot-modal .info-hotspot-text {
+
+  background: rgba(255, 255, 255, 0.12) !important;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
